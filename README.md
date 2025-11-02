@@ -7,7 +7,7 @@ It is designed for **EcoSweep**, an autonomous trash-collecting robot that autom
 
 ## Usage
 
-1. Place your trained model file (or use the existing one) — `best.pt` — and your input image — `image.png` — in the same directory.  
+1. Place your trained model file (or use the existing one) `best.pt` and your input image `image.png` — in the same directory.
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
