@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 from pathlib import Path
 
-model = YOLO("150.pt")
+model = YOLO("best.pt")
 img_path = Path("image.png")
 output_dir = Path("output")
 output_dir.mkdir(exist_ok=True)
